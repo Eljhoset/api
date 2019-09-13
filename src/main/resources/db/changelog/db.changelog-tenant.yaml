@@ -1,0 +1,11 @@
+databaseChangeLog:
+- include:
+    file: classpath:/db/migrations/tenant/set-schema.sql    
+- include:
+    file: classpath:/db/migrations/tenant/oauth.sql
+- include:
+    file: classpath:/db/migrations/tenant/user.sql
+- include:
+    file: classpath:/db/migrations/tenant/defaults.sql
+- include:
+    file: classpath:/db/migrations/tenant/model.sql
